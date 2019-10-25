@@ -1,7 +1,6 @@
-(function ($) {
-    "use strict";
+(function ($) {    
 
-    (function chainedm2m() {
+    chainedm2m = function() {
         return {
             fireEvent: function (element, event) {
                 var evt, rtn;
@@ -176,5 +175,5 @@
                 }
             }
         };
-    }());
+    }();
 }(jQuery || django.jQuery));
