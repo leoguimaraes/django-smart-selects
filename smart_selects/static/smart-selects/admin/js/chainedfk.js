@@ -1,7 +1,6 @@
-(function ($) {
-    "use strict";
+(function ($) {    
 
-    (function chainedfk() {
+    chainedfk = function() {
         return {
             fireEvent: function (element, event) {
                 var evt, rtn;
@@ -109,5 +108,5 @@
                 }
             }
         };
-    }());
+    }();
 }(jQuery || django.jQuery));
